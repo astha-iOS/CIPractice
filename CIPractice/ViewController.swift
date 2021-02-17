@@ -11,12 +11,17 @@ import AppCenterCrashes
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var nameLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         AppCenter.start(withAppSecret: "62ecc0b7-c9dd-4ddf-902d-098d62ac6c33", services:[
           Crashes.self
         ])
+        
+        nameLabel.text = "Astha Yadav"
+        
     }
 
 
