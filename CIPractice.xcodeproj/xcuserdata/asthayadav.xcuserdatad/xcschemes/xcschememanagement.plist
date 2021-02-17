@@ -3,11 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>SchemeUserState</key>
+	<dict/>
+	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>CIPractice.xcscheme_^#shared#^_</key>
+		<key>071DED1225DADD0A00E85AAD</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>4</integer>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>071DED2825DADD0B00E85AAD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>071DED3325DADD0B00E85AAD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

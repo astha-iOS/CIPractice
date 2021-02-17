@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B0CF41AFB9767900201E360890E6AF7B"
-               BuildableName = "Pods_CIPractice_CIPracticeUITests.framework"
-               BlueprintName = "Pods-CIPractice-CIPracticeUITests"
-               ReferencedContainer = "container:Pods.xcodeproj">
+               BlueprintIdentifier = "70137C5B7D30702FB6610E597F2BD3B9"
+               BuildableName = "Pods_CIPracticeTests.framework"
+               BlueprintName = "Pods-CIPracticeTests"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

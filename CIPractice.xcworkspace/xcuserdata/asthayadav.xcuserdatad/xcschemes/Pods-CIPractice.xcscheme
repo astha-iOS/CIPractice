@@ -17,7 +17,7 @@
                BlueprintIdentifier = "1E822C5A30D537EAF0888D6BB00E474E"
                BuildableName = "Pods_CIPractice.framework"
                BlueprintName = "Pods-CIPractice"
-               ReferencedContainer = "container:Pods.xcodeproj">
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
