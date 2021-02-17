@@ -43,6 +43,6 @@ class PokemonTests: XCTestCase {
     psyduck.attack(enemy: charmander)
     
  //   XCTAssertLessThanOrEqual(charmander.health, psyduck.health)
-    XCTAssertTrue(charmander.health > psyduck.health)
+    XCTAssertTrue(charmander.health < psyduck.health)
   }
 }
