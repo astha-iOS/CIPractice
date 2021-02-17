@@ -15,6 +15,10 @@
 		071DED2325DADD0B00E85AAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 071DED2125DADD0B00E85AAD /* LaunchScreen.storyboard */; };
 		071DED2E25DADD0B00E85AAD /* CIPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071DED2D25DADD0B00E85AAD /* CIPracticeTests.swift */; };
 		071DED3925DADD0B00E85AAD /* CIPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071DED3825DADD0B00E85AAD /* CIPracticeUITests.swift */; };
+		0775FACD25DCFA3600DED979 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0775FACC25DCFA3600DED979 /* Entry.swift */; };
+		0775FAD225DCFA6100DED979 /* EntryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0775FAD125DCFA6100DED979 /* EntryTests.swift */; };
+		0775FAD925DCFD1100DED979 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0775FAD825DCFD1100DED979 /* Pokemon.swift */; };
+		0775FADE25DCFD1F00DED979 /* PokemonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0775FADD25DCFD1F00DED979 /* PokemonTests.swift */; };
 		BDCE44B79029A7C75A5F2471 /* Pods_CIPractice_CIPracticeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12D49C7AD5ECB3227E156355 /* Pods_CIPractice_CIPracticeUITests.framework */; };
 		DF72077B4E935B2697E8EE0F /* Pods_CIPractice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 216C19B783A552EF3B2DA530 /* Pods_CIPractice.framework */; };
 		FBBB19E1F1792BCE8F07CB62 /* Pods_CIPracticeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EC84B239243E53B2242A149 /* Pods_CIPracticeTests.framework */; };
@@ -52,6 +56,10 @@
 		071DED3425DADD0B00E85AAD /* CIPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CIPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		071DED3825DADD0B00E85AAD /* CIPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CIPracticeUITests.swift; sourceTree = "<group>"; };
 		071DED3A25DADD0B00E85AAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0775FACC25DCFA3600DED979 /* Entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
+		0775FAD125DCFA6100DED979 /* EntryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryTests.swift; sourceTree = "<group>"; };
+		0775FAD825DCFD1100DED979 /* Pokemon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		0775FADD25DCFD1F00DED979 /* PokemonTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonTests.swift; sourceTree = "<group>"; };
 		12D49C7AD5ECB3227E156355 /* Pods_CIPractice_CIPracticeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CIPractice_CIPracticeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		216C19B783A552EF3B2DA530 /* Pods_CIPractice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CIPractice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		595ABD38D05071C0AF1DD674 /* Pods-CIPractice-CIPracticeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CIPractice-CIPracticeUITests.release.xcconfig"; path = "Target Support Files/Pods-CIPractice-CIPracticeUITests/Pods-CIPractice-CIPracticeUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -119,6 +127,8 @@
 				071DED1625DADD0A00E85AAD /* AppDelegate.swift */,
 				071DED1825DADD0A00E85AAD /* SceneDelegate.swift */,
 				071DED1A25DADD0A00E85AAD /* ViewController.swift */,
+				0775FAD825DCFD1100DED979 /* Pokemon.swift */,
+				0775FACC25DCFA3600DED979 /* Entry.swift */,
 				071DED1C25DADD0A00E85AAD /* Main.storyboard */,
 				071DED1F25DADD0B00E85AAD /* Assets.xcassets */,
 				071DED2125DADD0B00E85AAD /* LaunchScreen.storyboard */,
@@ -130,7 +140,9 @@
 		071DED2C25DADD0B00E85AAD /* CIPracticeTests */ = {
 			isa = PBXGroup;
 			children = (
+				0775FADD25DCFD1F00DED979 /* PokemonTests.swift */,
 				071DED2D25DADD0B00E85AAD /* CIPracticeTests.swift */,
+				0775FAD125DCFA6100DED979 /* EntryTests.swift */,
 				071DED2F25DADD0B00E85AAD /* Info.plist */,
 			);
 			path = CIPracticeTests;
@@ -165,7 +177,6 @@
 				EC8D2708F0601759B52C129F /* Pods-CIPracticeTests.debug.xcconfig */,
 				780AE167AAD0DD2671FAFBE0 /* Pods-CIPracticeTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -371,6 +382,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0775FAD925DCFD1100DED979 /* Pokemon.swift in Sources */,
+				0775FACD25DCFA3600DED979 /* Entry.swift in Sources */,
 				071DED1B25DADD0A00E85AAD /* ViewController.swift in Sources */,
 				071DED1725DADD0A00E85AAD /* AppDelegate.swift in Sources */,
 				071DED1925DADD0A00E85AAD /* SceneDelegate.swift in Sources */,
@@ -381,7 +394,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0775FAD225DCFA6100DED979 /* EntryTests.swift in Sources */,
 				071DED2E25DADD0B00E85AAD /* CIPracticeTests.swift in Sources */,
+				0775FADE25DCFD1F00DED979 /* PokemonTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
